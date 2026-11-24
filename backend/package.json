@@ -1,0 +1,25 @@
+{
+  "name": "mini-erp-backend",
+  "version": "1.0.0",
+  "description": "Mini ERP backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Arwind Manogaran",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "nodemailer": "^8.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
